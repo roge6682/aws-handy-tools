@@ -45,6 +45,10 @@ This repo consists of a variety of handy aws automation tools. This README attem
         patch_group:linux_hosts
         weekly_backups:enabled
         ```
+     7. Now run the python script like so:
+        ```
+        python tag_instances3.py
+        ```
         
 
 
