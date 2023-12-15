@@ -7,8 +7,9 @@ This repo consists of a variety of handy aws automation tools. This README attem
   **How to use tagging automation script** <br>
    - what you'll need:
      1. Python<br>
+     2. boto3 library<br>
      2. awscli<br>
      3. aws account with creds<br>
-     4. clone repo and run script<br>
+     4. clone repo and run python script<br>
      5. 
 
