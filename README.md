@@ -38,6 +38,13 @@ This repo consists of a variety of handy aws automation tools. This README attem
         .
         .
         ```
+        Sample tags_to_add file:
+        ```
+        created_by:admin1
+        project_id:proj_233ewe
+        patch_group:linux_hosts
+        weekly_backups:enabled
+        ```
         
 
 
