@@ -11,5 +11,19 @@ This repo consists of a variety of handy aws automation tools. This README attem
      2. awscli<br>
      3. aws account with creds<br>
      4. clone repo and run python script<br>
-     5. 
+        ```
+        $ git clone https://github.com/roge6682/aws-handy-tools.git
+         Cloning into 'aws-handy-tools'...
+         remote: Enumerating objects: 9, done.
+         remote: Counting objects: 100% (9/9), done.
+         remote: Compressing objects: 100% (7/7), done.
+         remote: Total 9 (delta 0), reused 6 (delta 0), pack-reused 0
+         Receiving objects: 100% (9/9), done.
+         $ ls
+         aws-handy-tools/
+         $ cd aws-handy-tools/
+         $ ls
+         README.md  get_iam_users.py  host_ids  tag_instances3.py
+         ```
+
 
