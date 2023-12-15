@@ -25,5 +25,10 @@ This repo consists of a variety of handy aws automation tools. This README attem
          $ ls
          README.md  get_iam_users.py  host_ids  tag_instances3.py
          ```
+     5. ec2 instance(s) to test with. Launch instance(s) in your aws with very minimal resources, then get instances ids and save in a file like so:
+        ```
+        aws ec2 describe-instances --query 'Reservations[*].Instances[*].InstanceId' --output text > instance_ids
+        ```
+
 
 
