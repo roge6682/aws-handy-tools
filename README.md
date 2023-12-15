@@ -29,6 +29,16 @@ This repo consists of a variety of handy aws automation tools. This README attem
         ```
         aws ec2 describe-instances --query 'Reservations[*].Instances[*].InstanceId' --output text > instance_ids
         ```
+     6. List of tags you'd like to add/update on the instances. The file name must be named **tags_to_add**. The file must be formated like so:
+        ```
+        key1:value1
+        key2:value2
+        key3:value3
+        .
+        .
+        .
+        ```
+        
 
 
 
