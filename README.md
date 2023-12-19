@@ -1,6 +1,6 @@
 # EC2 Tags Management Script
 
-This Python script is designed to manage tags for Amazon EC2 instances. It reads a list of EC2 instance IDs from a file (`host_ids`) and a list of tags from another file (`tags_to_add`). The script checks if the instances have existing tags and either updates or adds new tags accordingly.
+This Python script is designed to manage tags for Amazon EC2 instances. It reads a list of EC2 instance IDs from a file (`instance_ids`) and a list of tags from another file (`tags_to_add`). The script checks if the instances have existing tags and either updates or adds new tags accordingly.
 
 ## Requirements
 
