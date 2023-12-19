@@ -38,7 +38,7 @@ def modify_instance_tags(ec2_client, instance_id, existing_tags, new_tags):
         ec2_client.create_tags(Resources=[instance_id], Tags=tags_to_modify)
 
 def main():
-    file_path = 'host_ids'  # Specify the file name
+    file_path = 'instance_ids'  # Specify the file name
     tags_file_path = 'tags_to_add'  # Specify the tags file name
     ec2_client = boto3.client('ec2', region_name='us-east-1')  # Replace with your AWS region
 
