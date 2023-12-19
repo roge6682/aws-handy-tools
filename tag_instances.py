@@ -1,5 +1,6 @@
 import os
 import boto3
+import sys
 
 def read_instance_ids_from_file(file_path):
     with open(file_path, 'r') as file:
@@ -54,5 +55,13 @@ def main():
         else:
             modify_instance_tags(ec2_client, instance_id, existing_tags, tags_to_add)
 
+    print("Instance(s) tags successfully updated")
+    sys.exit(0)
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"Error: {e}")
+        print("Script ran with some errors, please check")
+        sys.exit(1)
