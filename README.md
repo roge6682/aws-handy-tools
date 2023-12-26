@@ -26,7 +26,7 @@ Before using this script, ensure that you have the following requirements instal
    aws configure
    ```
   ## Input Files:
-  **host_ids:** This file should contain a list of EC2 instance IDs, with each ID on a separate line.<br>
+  **instance_ids:** This file should contain a list of EC2 instance IDs, with each ID on a separate line.<br>
   **tags_to_add:** This file should contain a list of tags to add or modify in the format key:value, with each tag on a separate line. <br>
   Example tags_to_add file content:
   ```
